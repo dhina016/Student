@@ -1,0 +1,13 @@
+#program1
+b='123456'
+print(b[7:0:-2])
+print(b[4::-2])
+
+
+#program2
+l=['a','b','c','d','e','f']
+l[l.index('a')]='b'
+s=''.join(l)
+print(s)
+l2,l3='aaaaaa','a'
+print(l2.replace('a','b'))

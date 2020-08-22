@@ -1,0 +1,29 @@
+#program1
+a=int(input())
+c=0
+for i in range(1,6):
+    b=i*a
+    print(b,end=' ')
+    c+=b
+print('\n',c)
+if c%2==0:
+	print('even')
+else:
+		print('odd')
+d=int(c%10)
+e=int(c/10)
+print(d,e)
+		
+#program 2		
+str=input()
+rev=str[::-1]
+if str==rev:
+	print(str,'is a palindrome')
+else:
+		print(str,'is not a palindrome')
+a=len(str)
+print(a)
+if a%2==0:
+	print('even')
+else:
+		print('odd')
