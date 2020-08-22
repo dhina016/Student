@@ -1,0 +1,44 @@
+#problem 1
+
+a=int(input())
+c=0
+for i in range(1,6):
+    b=i*a
+    print(b,end=' ')
+    c=c+b
+print('\n',c)
+if c%2==0:
+    print("even")
+else:
+    print("odd")
+d=int(c%10)
+e=int(c/10)
+print(d,e,sep='')
+
+output:
+2
+2 4 6 8 10 
+ 30
+even
+03
+
+
+#problem 2
+
+z=input()
+x=z[::-1]
+if z==x:
+    print("it is palindrom")
+else:
+    print("not a palindrom")
+print(len(z))
+if len(z)%2==0:
+    print("even")
+else:
+    print("odd")
+
+output:
+qwerty
+not a palindrom
+6
+even

@@ -1,0 +1,18 @@
+a=123456
+z=str(a)
+print(z[-1::-2])
+print(z[1:3]+z[0])
+b,c='abcdef','a'
+print(b.replace('a','b'))
+d,e='aaaaaa','a'
+print(d.replace('a','b'))
+
+
+
+output:
+RESTART: F:\keerthi IT\placement classes\python\assignments.py =======
+642
+231
+bbcdef
+bbbbbb
+>>> 
