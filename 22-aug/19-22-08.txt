@@ -1,0 +1,60 @@
+#problem 1      armstrong
+
+a=int(input())
+v=str(a)
+b=list(v)
+c=len(b)
+e=0
+for i in range(c):
+    d=pow(int(b[i]),c)
+    e=e+d
+if(a==e):
+    print("armstrong number")
+else:
+    print("not an armstrong number")
+
+output:
+1.153
+  armstrong number
+2.548834
+  armstrong number
+
+
+
+#problem 2      prime number    
+
+a=int(input())
+if(a%2==0 or a%3==0):
+    print("not a prime number")
+else:
+    print("prime number")
+
+
+
+output:
+1.23
+  prime number
+2.77    
+  prime number
+#problem 3
+
+a=input()
+b=input()
+c,d=len(a),len(b)
+if(c==d):
+    if(sorted(a)==sorted(b)):
+        print("anagram")
+    else:
+        print("not an anagram")
+else:
+    print("not an anagram")
+
+
+output:
+1.abc
+  bca
+  anagram
+2.aabb
+  baba
+  anagram
+              

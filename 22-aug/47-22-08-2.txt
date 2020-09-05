@@ -1,0 +1,30 @@
+a=int(input())
+if a>1:
+    for i in range(2,a):
+        if(a%i)==0:
+            print(a,'is not a prime number')
+    else:
+        print(a,'is  a prime number')
+else:
+    print(a,'is not a prime number')      
+
+
+
+    
+b=input()
+c=input()
+d=len(b)
+e=len(c)
+if(d==e):
+    if(sorted(b)==sorted(c)):
+        print("Anagram")
+    else:
+        print("Not an Anagram")
+else:
+    print("Not an Anagram")
+OUTPUT:
+2
+2 is  a prime number
+abab
+baba
+Anagram
