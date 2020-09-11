@@ -1,0 +1,4 @@
+Perfect Square
+count the number of words in a string
+find the duplicate characters
+Nth-highest number   -> Nth-lowest number
